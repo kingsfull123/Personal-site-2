@@ -11,6 +11,22 @@ body {
    margin-left: auto;
 }
 
+.navbar .container .navbar-brand {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 .5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #eee;
+    font-size: 1.2rem;
+}
+
 #mainNav {
     background-color: transparent;
 }
@@ -18,7 +34,25 @@ body {
 .masthead {
     height: 100vh;
     min-height: 40rem;
-    background-image: url('https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://images.pexels.com/photos/1459/street-car-vehicle-blur.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    height: 100vh;
+    min-height: 40rem;
+    background-image: url('https://images.pexels.com/photos/257930/pexels-photo-257930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.about {
+    height: 100vh;
+    min-height: 40rem;
+    background-image: url('https://images.pexels.com/photos/220067/pexels-photo-220067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,4 +62,23 @@ body {
     border: 0;
     height: 1.5px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .45), rgba(0, 0, 0, 0));
+}
+
+/* .masthead #subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    line-height: 2rem;
+} */
+
+#title {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    padding-left: 1rem;
+    border-left: 5px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
